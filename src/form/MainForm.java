@@ -34,7 +34,7 @@ public class MainForm extends JFrame {
 		JButton btnNewButton = new JButton("Сберегательный");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				new Sberegatel().setVisible(true);
 			}
 		});
 		btnNewButton.setBounds(102, 50, 191, 51);
@@ -43,7 +43,7 @@ public class MainForm extends JFrame {
 		JButton btnNewButton_1 = new JButton("Накопительный");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-
+				new Nakopitel().setVisible(true);
 			}
 		});
 		btnNewButton_1.setBounds(102, 101, 191, 51);
