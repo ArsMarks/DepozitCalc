@@ -101,7 +101,12 @@ public class Sberegatel extends JFrame {
 		JButton Calculate_Button = new JButton("Рассчитать");
 		Calculate_Button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
+				long diff = start_date.getDate().getTime() - end_date.getDate().getTime();
+				long diffDays = diff / (24 * 60 * 60 * 1000);
+				System.out.println(Math.abs(diffDays));
+				Calculation c = new Calculation();
+					end_textField.setText(String.valueOf(c.calc_s(Integer.valueOf(Deposit_textField.getText()), 
+							Integer.valueOf(Percent_textField.getText()), diffDays)));
 			}
 		});
 		Calculate_Button.setBounds(10, 69, 120, 25);
