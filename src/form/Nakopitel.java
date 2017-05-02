@@ -35,42 +35,6 @@ public class Nakopitel extends JFrame {
 						Ammount_textField,
 					    Periodicity_textField;
 	/**
-	 * Главный метод, с которого начинается запуск программы
-	 */
-	public static void main(String[] args) {
-		/**
-		 * Запускаем форму из очереди потоков
-		 */
-		EventQueue.invokeLater(new Runnable() {
-			/**
-			 * Запуск
-			 */
-			public void run() {
-				/**
-				 * отмечаем начала блока кода, который потенциально может привести к ошибке
-				 */
-				try {
-					/**
-					 * создаём переменную
-					 */
-					Nakopitel frame = new Nakopitel();
-					/**
-					 * задаём видимость для фрейма
-					 */
-					frame.setVisible(true);
-					/**
-					 * указание на исключение
-					 */
-				} catch (Exception e) {
-					/**
-					 * отображает трассировку стека
-					 */
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-	/**
 	 * создаём форму
 	 */
 	public Nakopitel() {
