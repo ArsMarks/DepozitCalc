@@ -31,7 +31,7 @@ import java.util.Calendar;
  */
 import java.awt.event.*;
 /**
- * Создаем класс и наследуем класс фрейма
+ * Создаем класс и наследуем класс фрейма для формы сберегательного депозита
  */
 public class Sberegatel extends JFrame {
 	/**
@@ -41,7 +41,7 @@ public class Sberegatel extends JFrame {
 	private JTextField Percent_textField;
 	private JTextField end_textField;
 	/**
-	 * создаём форму
+	 * объявление метода, в котором объявляются элементы экранной формы и ее события
 	 */
 	public Sberegatel() {
 		/**

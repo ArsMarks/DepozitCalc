@@ -35,7 +35,7 @@ import java.awt.event.ActionListener;
  */
 import java.awt.event.ActionEvent;
 /**
- * создаем общедоступный класс и наследуем класс фрейма
+ * создаем общедоступный класс и наследуем класс фрейма для главной формы
  */
 public class MainForm extends JFrame {
 	/**
@@ -75,7 +75,7 @@ public class MainForm extends JFrame {
 		});
 	}
 	/**
-	 * создаем форму
+	 * объявление метода, в котором объявляются элементы экранной формы и ее события
 	 */
 	public MainForm() {
 		/**

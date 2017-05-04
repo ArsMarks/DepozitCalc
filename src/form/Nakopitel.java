@@ -23,7 +23,7 @@ import java.awt.event.*;
  */
 import org.jdesktop.swingx.JXDatePicker;
 /**
- * Создаем класс и наследуем класс фрейма
+ * Создаем класс и наследуем класс фрейма для формы накопительного депозита
  */
 public class Nakopitel extends JFrame {
 	/**
@@ -35,7 +35,7 @@ public class Nakopitel extends JFrame {
 						Ammount_textField,
 					    Periodicity_textField;
 	/**
-	 * создаём форму
+	 * объявление метода, в котором объявляются элементы экранной формы и ее события
 	 */
 	public Nakopitel() {
 		/**
